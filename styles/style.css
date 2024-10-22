@@ -1,0 +1,166 @@
+body {
+    font-family: fantasy;
+    background-color: whitesmoke;
+}
+
+.background {  
+    background-image: url(../images/New\ Orleans.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding-top: 300px;
+}
+
+.container {
+    position: relative;
+    border: 5px solid black;
+    display: contents;
+    height: 50vh;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #d6af3e;
+    text-shadow: 3px 6px 6px black;
+   font-family: fantasy
+
+    
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.goodTime {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    padding-top: 20px;
+    padding-bottom: 0%;
+   
+}
+.en {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Views {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #333333ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.things {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px;
+    padding: 93px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 22px;
+}
+.item {
+display: flex;
+flex-wrap: wrap;
+}
+.textThings {
+    padding: 376px;
+    padding-bottom: 0;
+    padding-top: 20px;
+    
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+#carouselExampleSlidesOnly {
+    padding-top: 259px;
+    margin-top: -229px;
+    padding: 207px;
+    padding-bottom: 41px;
+}
+#id {
+    animation: infinite;
+}
+
+ #spin{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  #spin:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+  }
+
+  #spinTwo {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s linear 1s;
+  }
+  
+  #spinTwo:hover {
+    width: 300px;
+  }
